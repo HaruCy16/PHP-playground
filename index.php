@@ -71,4 +71,11 @@
     } else {
         echo "Not eligible";
     }
+
+    //shorthands
+
+    $a = 30;
+
+    if ($a > 20) $x="Okay";
+    echo $x;
 ?>
