@@ -14,6 +14,9 @@
 </body>
 </html> 
 <?php
+    // $quantity = $_POST("quantity");
+    // echo "Quantity: ". $quantity;
+
     $num1 = 10;
     $num2 = 20;
 
@@ -78,4 +81,27 @@
 
     if ($a > 20) $x="Okay";
     echo $x;
+
+    //Loops
+
+    //while
+    $i = 16;
+    while ($i <= 16) {
+        echo $i;
+        $i++;
+    }
+
+    $count = 0;
+
+    while ($count < 100){
+        $count+=10;
+        echo "$count<br>";
+    }
+
+    //do...while
+    
+    //REGEX
+    $str = "My Portfolio";
+    $pattern = "/portfolio/i";
+    echo preg_match($pattern, $str);
 ?>
