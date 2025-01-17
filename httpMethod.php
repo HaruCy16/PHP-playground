@@ -12,7 +12,7 @@
             xhttp.onload = function() {
                 document.getElementById("name").innerHTML = this.responseText;
             };
-            xhttp.send("fname=John Doe");
+            xhttp.send("fname=Cyrus Wilson");
         }
     </script>
 </head>
@@ -23,6 +23,6 @@
 </html>
 
 <?php
-    $name = $_POST["fname"];
-    echo "Your name is: ". $name;
+    $name = $_POST["fname"]; 
+    echo "Your name is: $name";
 ?>
