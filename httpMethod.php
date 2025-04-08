@@ -19,6 +19,7 @@
 <body>
     <button onclick="showName()">Pindot</button>
     <h2 id="name"></h2>
+    
 </body>
 </html>
 
